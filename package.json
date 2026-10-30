@@ -1,0 +1,27 @@
+{
+  "name": "presentaciones",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "pdf": "ts-node --esm scripts/export-pdf.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.4"
+  },
+  "dependencies": {
+    "lucide": "^1.8.0",
+    "lucide-react": "^1.8.0",
+    "puppeteer": "^24.40.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  }
+}

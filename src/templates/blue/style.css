@@ -1,0 +1,30 @@
+.template-blue {
+  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+  color: white;
+  min-height: 100vh;
+}
+
+.template-blue .slide {
+  background: transparent;
+  color: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media print {
+  .template-blue {
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6) !important;
+    -webkit-print-color-adjust: exact;
+  }
+  .template-blue .slide {
+    border: none;
+    box-shadow: none;
+  }
+}
+
+.template-blue h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: white;
+}
