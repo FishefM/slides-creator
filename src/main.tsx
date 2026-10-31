@@ -1,6 +1,7 @@
 import { createRoot } from 'react-dom/client';
 import './style.css';
 import { ModernDarkTemplate } from './templates/modern-dark/template';
+import { CorporateMonoTemplate } from './templates/corporate-mono/template';
 import { BlueTemplate } from './templates/blue/template';
 import { MinimalTemplate } from './templates/minimal/template';
 import type { Template } from './types';
@@ -10,6 +11,7 @@ const root = createRoot(app);
 
 const templates: Record<string, Template> = {
   'dark': ModernDarkTemplate,
+  'mono': CorporateMonoTemplate,
   'blue': BlueTemplate,
   'minimal': MinimalTemplate,
 };
