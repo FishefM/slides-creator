@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const Slide02 = () => (
   <div className="slide">
     <h2>De lo Tradicional a lo Ágil</h2>

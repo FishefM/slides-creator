@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const Slide05 = () => (
   <div className="slide">
     <h2>Nuestra Hoja de Ruta</h2>

@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const Slide14 = () => (
   <div className="slide">
     <h2>¿Por qué elegir Scrum?</h2>

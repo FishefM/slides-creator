@@ -1,4 +1,3 @@
-import React from 'react';
 import { Layers, UserCheck } from 'lucide-react';
 
 export const Slide01 = () => (

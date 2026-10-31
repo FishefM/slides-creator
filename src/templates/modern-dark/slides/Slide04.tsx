@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const Slide04 = () => (
   <div className="slide">
     <h2>Desarrollo Iterativo e Incremental</h2>

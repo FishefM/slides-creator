@@ -1,4 +1,3 @@
-import React from 'react';
 import { Users, Code, MessageSquare, RefreshCcw } from 'lucide-react';
 
 export const Slide03 = () => (

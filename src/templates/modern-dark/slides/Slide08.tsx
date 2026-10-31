@@ -1,4 +1,3 @@
-import React from 'react';
 import { UserCheck, FileText, Activity } from 'lucide-react';
 
 export const Slide08 = () => (

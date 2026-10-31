@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const Slide06 = () => (
   <div className="slide">
     <div className="flex-center">

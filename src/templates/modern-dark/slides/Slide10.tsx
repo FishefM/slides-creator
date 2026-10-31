@@ -1,4 +1,3 @@
-import React from 'react';
 import { ShieldAlert } from 'lucide-react';
 
 export const Slide10 = () => (

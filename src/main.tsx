@@ -1,7 +1,8 @@
-import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './style.css';
 import { ModernDarkTemplate } from './templates/modern-dark/template';
+import { BlueTemplate } from './templates/blue/template';
+import { MinimalTemplate } from './templates/minimal/template';
 import type { Template } from './types';
 
 const app = document.querySelector<HTMLDivElement>('#app')!;
@@ -9,6 +10,8 @@ const root = createRoot(app);
 
 const templates: Record<string, Template> = {
   'dark': ModernDarkTemplate,
+  'blue': BlueTemplate,
+  'minimal': MinimalTemplate,
 };
 
 function Home() {

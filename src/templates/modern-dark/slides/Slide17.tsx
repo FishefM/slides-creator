@@ -1,4 +1,3 @@
-import React from 'react';
 import { Users, CheckCircle, Zap, Coffee } from 'lucide-react';
 
 export const Slide17 = () => (

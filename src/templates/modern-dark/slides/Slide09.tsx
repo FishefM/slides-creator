@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const Slide09 = () => (
   <div className="slide">
     <h2>¿Cuándo es ideal usar RUP?</h2>

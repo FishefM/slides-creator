@@ -1,4 +1,3 @@
-import React from 'react';
 import { TrendingUp, Calendar } from 'lucide-react';
 
 export const Slide15 = () => (

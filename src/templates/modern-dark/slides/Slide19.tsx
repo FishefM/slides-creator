@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const Slide19 = () => (
   <div className="slide">
     <h2>Comparativa Final</h2>

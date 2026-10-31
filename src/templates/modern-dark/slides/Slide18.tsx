@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const Slide18 = () => (
   <div className="slide">
     <h2>¿Cuándo usar XP?</h2>
