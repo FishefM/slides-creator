@@ -24,9 +24,15 @@ body {
   overflow: hidden;
 }
 
+@page {
+  size: var(--slide-width) var(--slide-height);
+  margin: 0;
+}
+
 @media print {
   body { background-color: transparent; }
   .slide { margin: 0; box-shadow: none; page-break-after: always; }
+  .slide:last-child { page-break-after: auto; }
 }
 
 /* Common Utilities */

@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# PDFs generados por npm run pdf
+presentation-*.pdf
