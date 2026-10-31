@@ -4,7 +4,7 @@ export const Slide20 = () => (
   <div className="slide">
     <div className="flex-center">
       <h2 style={{ color: '#00ffcc' }}>No hay una solución perfecta</h2>
-      <p style={{ fontSize: '1.2rem', maxWidth: '600px', textAlign: 'center', marginTop: '1rem' }}>
+      <p style={{ fontSize: '1.2rem', maxWidth: '37.5rem', textAlign: 'center', marginTop: '1rem' }}>
         La agilidad es una mentalidad, no una regla rígida. Elige el método que mejor se adapte a tu contexto.
       </p>
       <div style={{ marginTop: '3rem', textAlign: 'center' }}>

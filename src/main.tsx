@@ -60,3 +60,16 @@ document.addEventListener('click', (e) => {
 });
 
 router();
+
+// Marca <html> con .fs cuando el navegador está en pantalla completa (F11 o API Fullscreen).
+function syncFullscreen() {
+  const fs =
+    document.fullscreenElement !== null ||
+    window.matchMedia('(display-mode: fullscreen)').matches ||
+    (window.innerWidth >= screen.width && window.innerHeight >= screen.height);
+  document.documentElement.classList.toggle('fs', fs);
+}
+
+window.addEventListener('resize', syncFullscreen);
+document.addEventListener('fullscreenchange', syncFullscreen);
+syncFullscreen();
