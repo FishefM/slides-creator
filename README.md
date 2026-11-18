@@ -27,6 +27,7 @@ Abre la URL que imprime Vite (por defecto `http://localhost:5173`). La raíz `/`
 | `npm run preview` | Sirve el build de producción ya generado |
 | `npm start` | Genera el build y lo sirve. **Úsalo para exponer** (ver más abajo) |
 | `npm run pdf -- <ruta>` | Exporta una plantilla a PDF. Ej.: `npm run pdf -- mono` genera `presentation-mono.pdf` |
+| `npm run pptx` | Exporta la presentación `marketing` a PowerPoint editable (`.pptx` en la raíz). Si el archivo ya existe, pregunta si sobrescribir o guardar con otro nombre (`-- --out Nombre.pptx`, `-- --force`). Los textos viven en `scripts/export-pptx.mjs`, no se leen de la web |
 
 ### Para exponer: usa `npm start`, no `npm run dev`
 
