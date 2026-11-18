@@ -25,3 +25,8 @@ dist-ssr
 
 # PDFs generados por npm run pdf
 presentation-*.pdf
+
+# Documentos y exportaciones locales (Word, Kahoot, PowerPoint)
+*.docx
+*.xlsx
+*.pptx
